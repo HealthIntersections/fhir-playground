@@ -1,0 +1,812 @@
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="gh-patients-variants"/>
+  <type value="collection"/>
+
+  <entry>
+    <fullUrl value="http://healthintersections.com.au/fhir/playground/Patient/gh-female"/>
+    <resource>
+      <Patient>
+        <id value="gh-female"/>
+        <name>
+          <family value="Pax-Shalom"/>
+          <given value="Michelle"/>
+        </name>
+        <gender value="female"/>
+        <birthDate value="1990-01-01"/>
+      </Patient>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://healthintersections.com.au/fhir/playground/Patient/gh-male"/>
+    <resource>
+      <Patient>
+        <id value="gh-male"/>
+        <name>
+          <family value="Pax-Shalom"/>
+          <given value="Michael"/>
+        </name>
+        <gender value="male"/>
+        <birthDate value="1990-01-02"/>
+      </Patient>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://healthintersections.com.au/fhir/playground/Patient/gh-female-pronouns-coded"/>
+    <resource>
+      <Patient>
+        <id value="gh-female-pronouns-coded"/>
+        <extension url="http://hl7.org/fhir/StructureDefinition/individual-pronouns">
+          <extension url="value">
+            <valueCodeableConcept>
+              <coding>
+                <system value="http://loinc.org"/>
+                <code value="LA29519-8"/>
+              </coding>
+            </valueCodeableConcept>
+          </extension>
+          <extension url="period">
+            <valuePeriod>
+              <start value="2010-01-01"/>
+            </valuePeriod>
+          </extension>
+        </extension>
+        <name>
+          <family value="Pax-Shalom"/>
+          <given value="Michelle"/>
+        </name>
+        <gender value="female"/>
+        <birthDate value="1990-01-03"/>
+      </Patient>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://healthintersections.com.au/fhir/playground/Patient/gh-female-pronouns-text"/>
+    <resource>
+      <Patient>
+        <id value="gh-female-pronouns-text"/>
+        <extension url="http://hl7.org/fhir/StructureDefinition/individual-pronouns">
+          <extension url="value">
+            <valueCodeableConcept>
+              <text value="She/Her"/>
+            </valueCodeableConcept>
+          </extension>
+          <extension url="period">
+            <valuePeriod>
+              <start value="2010-01-01"/>
+            </valuePeriod>
+          </extension>
+        </extension>
+        <name>
+          <family value="Pax-Shalom"/>
+          <given value="Michelle"/>
+        </name>
+        <gender value="female"/>
+        <birthDate value="1990-01-04"/>
+      </Patient>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://healthintersections.com.au/fhir/playground/Patient/gh-male-pronouns-coded"/>
+    <resource>
+      <Patient>
+        <id value="gh-male-pronouns-coded"/>
+        <extension url="http://hl7.org/fhir/StructureDefinition/individual-pronouns">
+          <extension url="value">
+            <valueCodeableConcept>
+              <coding>
+                <system value="http://loinc.org"/>
+                <code value="LA29518-0"/>
+              </coding>
+            </valueCodeableConcept>
+          </extension>
+          <extension url="period">
+            <valuePeriod>
+              <start value="2010-01-01"/>
+            </valuePeriod>
+          </extension>
+        </extension>
+        <name>
+          <family value="Pax-Shalom"/>
+          <given value="Michael"/>
+        </name>
+        <gender value="male"/>
+        <birthDate value="1990-01-05"/>
+      </Patient>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://healthintersections.com.au/fhir/playground/Patient/gh-male-pronouns-text"/>
+    <resource>
+      <Patient>
+        <id value="gh-male-pronouns-text"/>
+        <extension url="http://hl7.org/fhir/StructureDefinition/individual-pronouns">
+          <extension url="value">
+            <valueCodeableConcept>
+              <text value="He/Him"/>
+            </valueCodeableConcept>
+          </extension>
+          <extension url="period">
+            <valuePeriod>
+              <start value="2010-01-01"/>
+            </valuePeriod>
+          </extension>
+        </extension>
+        <name>
+          <family value="Pax-Shalom"/>
+          <given value="Michael"/>
+        </name>
+        <gender value="male"/>
+        <birthDate value="1990-01-06"/>
+      </Patient>
+    </resource>
+  </entry>
+
+  <entry>
+    <fullUrl value="http://healthintersections.com.au/fhir/playground/Patient/gh-Female-female"/>
+    <resource>
+      <Patient>
+        <id value="gh-Female-female"/>
+        <extension url="http://hl7.org/fhir/StructureDefinition/individual-genderIdentity">
+          <extension url="value">
+            <valueCodeableConcept>
+              <coding>
+                <system value="http://snomed.info/sct"/>
+                <code value="446141000124107"/>
+                <display value="Identifies as female gender"/>
+              </coding>
+            </valueCodeableConcept>
+          </extension>
+          <extension url="period">
+            <valuePeriod>
+              <start value="2010-01-01"/>
+            </valuePeriod>
+          </extension>
+        </extension>
+        <name>
+          <family value="Pax-Shalom"/>
+          <given value="Michelle"/>
+        </name>
+        <gender value="female"/>
+        <birthDate value="1990-01-01"/>
+      </Patient>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://healthintersections.com.au/fhir/playground/Patient/gh-Male-male"/>
+    <resource>
+      <Patient>
+        <id value="gh-Male-male"/>
+        <extension url="http://hl7.org/fhir/StructureDefinition/individual-genderIdentity">
+          <extension url="value">
+            <valueCodeableConcept>
+              <coding>
+                <system value="http://snomed.info/sct"/>
+                <code value="446151000124109"/>
+              </coding>
+            </valueCodeableConcept>
+          </extension>
+          <extension url="period">
+            <valuePeriod>
+              <start value="2010-01-01"/>
+            </valuePeriod>
+          </extension>
+        </extension>
+        <name>
+          <family value="Pax-Shalom"/>
+          <given value="Michael"/>
+        </name>
+        <gender value="male"/>
+        <birthDate value="1990-01-02"/>
+      </Patient>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://healthintersections.com.au/fhir/playground/Patient/gh-Female-female-pronouns"/>
+    <resource>
+      <Patient>
+        <id value="gh-Female-female-pronouns"/>
+        <extension url="http://hl7.org/fhir/StructureDefinition/individual-genderIdentity">
+          <extension url="value">
+            <valueCodeableConcept>
+              <coding>
+                <system value="http://snomed.info/sct"/>
+                <code value="446141000124107"/>
+                <display value="Identifies as female gender"/>
+              </coding>
+            </valueCodeableConcept>
+          </extension>
+          <extension url="period">
+            <valuePeriod>
+              <start value="2010-01-01"/>
+            </valuePeriod>
+          </extension>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/individual-pronouns">
+          <extension url="value">
+            <valueCodeableConcept>
+              <coding>
+                <system value="http://loinc.org"/>
+                <code value="LA29519-8"/>
+              </coding>
+            </valueCodeableConcept>
+          </extension>
+          <extension url="period">
+            <valuePeriod>
+              <start value="2010-01-01"/>
+            </valuePeriod>
+          </extension>
+        </extension>
+        <name>
+          <family value="Pax-Shalom"/>
+          <given value="Michelle"/>
+        </name>
+        <gender value="female"/>
+        <birthDate value="1990-01-03"/>
+      </Patient>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://healthintersections.com.au/fhir/playground/Patient/gh-Male-male-pronouns"/>
+    <resource>
+      <Patient>
+        <id value="gh-Male-male-pronouns"/>
+        <extension url="http://hl7.org/fhir/StructureDefinition/individual-genderIdentity">
+          <extension url="value">
+            <valueCodeableConcept>
+              <coding>
+                <system value="http://snomed.info/sct"/>
+                <code value="446151000124109"/>
+                <display value="Identifies as male gender"/>
+              </coding>
+              <text value="Male"/>
+            </valueCodeableConcept>
+          </extension>
+          <extension url="period">
+            <valuePeriod>
+              <start value="2010-01-01"/>
+            </valuePeriod>
+          </extension>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/individual-pronouns">
+          <extension url="value">
+            <valueCodeableConcept>
+              <text value="He/Him"/>
+            </valueCodeableConcept>
+          </extension>
+          <extension url="period">
+            <valuePeriod>
+              <start value="2010-01-01"/>
+            </valuePeriod>
+          </extension>
+        </extension>
+        <name>
+          <family value="Pax-Shalom"/>
+          <given value="Michael"/>
+        </name>
+        <gender value="male"/>
+        <birthDate value="1990-01-05"/>
+      </Patient>
+    </resource>
+  </entry>
+
+  <entry>
+    <fullUrl value="http://healthintersections.com.au/fhir/playground/Patient/gh-Female-male"/>
+    <resource>
+      <Patient>
+        <id value="gh-Female-male"/>
+        <extension url="http://hl7.org/fhir/StructureDefinition/individual-genderIdentity">
+          <extension url="value">
+            <valueCodeableConcept>
+              <coding>
+                <system value="http://snomed.info/sct"/>
+                <code value="446141000124107"/>
+                <display value="Identifies as female gender"/>
+              </coding>
+            </valueCodeableConcept>
+          </extension>
+          <extension url="period">
+            <valuePeriod>
+              <start value="2010-01-01"/>
+            </valuePeriod>
+          </extension>
+        </extension>
+        <name>
+          <family value="Pax-Shalom"/>
+          <given value="Michelle"/>
+        </name>
+        <name>
+          <use value="old"/>
+          <family value="Pax-Shalom"/>
+          <given value="Michael"/>
+        </name>
+        <gender value="male"/>
+        <birthDate value="1990-01-01"/>
+      </Patient>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://healthintersections.com.au/fhir/playground/Patient/gh-Male-female"/>
+    <resource>
+      <Patient>
+        <id value="gh-Male-female"/>
+        <extension url="http://hl7.org/fhir/StructureDefinition/individual-genderIdentity">
+          <extension url="value">
+            <valueCodeableConcept>
+              <coding>
+                <system value="http://snomed.info/sct"/>
+                <code value="446151000124109"/>
+              </coding>
+            </valueCodeableConcept>
+          </extension>
+          <extension url="period">
+            <valuePeriod>
+              <start value="2010-01-01"/>
+            </valuePeriod>
+          </extension>
+        </extension>
+        <name>
+          <use value="old"/>
+          <family value="Pax-Shalom"/>
+          <given value="Michelle"/>
+        </name>
+        <name>
+          <family value="Pax-Shalom"/>
+          <given value="Michael"/>
+        </name>
+        <gender value="female"/>
+        <birthDate value="1990-01-02"/>
+      </Patient>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://healthintersections.com.au/fhir/playground/Patient/gh-Female-male-pronouns"/>
+    <resource>
+      <Patient>
+        <id value="gh-Female-male-pronouns"/>
+        <extension url="http://hl7.org/fhir/StructureDefinition/individual-genderIdentity">
+          <extension url="value">
+            <valueCodeableConcept>
+              <coding>
+                <system value="http://snomed.info/sct"/>
+                <code value="446141000124107"/>
+                <display value="Identifies as female gender"/>
+              </coding>
+            </valueCodeableConcept>
+          </extension>
+          <extension url="period">
+            <valuePeriod>
+              <start value="2010-01-01"/>
+            </valuePeriod>
+          </extension>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/individual-pronouns">
+          <extension url="value">
+            <valueCodeableConcept>
+              <coding>
+                <system value="http://loinc.org"/>
+                <code value="LA29519-8"/>
+              </coding>
+            </valueCodeableConcept>
+          </extension>
+          <extension url="period">
+            <valuePeriod>
+              <start value="2010-01-01"/>
+            </valuePeriod>
+          </extension>
+        </extension>
+        <name>
+          <family value="Pax-Shalom"/>
+          <given value="Michelle"/>
+        </name>
+        <name>
+          <use value="old"/>
+          <family value="Pax-Shalom"/>
+          <given value="Michael"/>
+        </name>
+        <gender value="male"/>
+        <birthDate value="1990-01-03"/>
+      </Patient>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://healthintersections.com.au/fhir/playground/Patient/gh-Male-female-pronouns"/>
+    <resource>
+      <Patient>
+        <id value="gh-Male-female-pronouns"/>
+        <extension url="http://hl7.org/fhir/StructureDefinition/individual-genderIdentity">
+          <extension url="value">
+            <valueCodeableConcept>
+              <coding>
+                <system value="http://snomed.info/sct"/>
+                <code value="446151000124109"/>
+                <display value="Identifies as male gender"/>
+              </coding>
+              <text value="Male"/>
+            </valueCodeableConcept>
+          </extension>
+          <extension url="period">
+            <valuePeriod>
+              <start value="2010-01-01"/>
+            </valuePeriod>
+          </extension>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/individual-pronouns">
+          <extension url="value">
+            <valueCodeableConcept>
+              <text value="He/Him"/>
+            </valueCodeableConcept>
+          </extension>
+          <extension url="period">
+            <valuePeriod>
+              <start value="2010-01-01"/>
+            </valuePeriod>
+          </extension>
+        </extension>
+        <name>
+          <family value="Pax-Shalom"/>
+          <given value="Michael"/>
+        </name>
+        <name>
+          <family value="Pax-Shalom"/>
+          <given value="Michael"/>
+          <period>
+            <end value="2010-01-01"/>
+          </period>
+        </name>
+        <gender value="female"/>
+        <birthDate value="1990-01-05"/>
+      </Patient>
+    </resource>
+  </entry>
+
+  <entry>
+    <fullUrl value="http://healthintersections.com.au/fhir/playground/Patient/gh-non-binary-male"/>
+    <resource>
+      <Patient>
+        <id value="gh-non-binary-male"/>
+        <extension url="http://hl7.org/fhir/StructureDefinition/individual-genderIdentity">
+          <extension url="value">
+            <valueCodeableConcept>
+              <coding>
+                <system value="http://snomed.info/sct"/>
+                <code value="33791000087105"/>
+                <display value="Identifies as nonbinary gender"/>
+              </coding>
+            </valueCodeableConcept>
+          </extension>
+          <extension url="period">
+            <valuePeriod>
+              <start value="2010-01-01"/>
+            </valuePeriod>
+          </extension>
+        </extension>
+        <name>
+          <family value="Pax-Shalom"/>
+          <given value="Jordan"/>
+        </name>
+        <gender value="male"/>
+        <birthDate value="1990-01-01"/>
+      </Patient>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://healthintersections.com.au/fhir/playground/Patient/gh-non-binary-female"/>
+    <resource>
+      <Patient>
+        <id value="gh-non-binary-female"/>
+        <extension url="http://hl7.org/fhir/StructureDefinition/individual-genderIdentity">
+          <extension url="value">
+            <valueCodeableConcept>
+              <coding>
+                <system value="http://snomed.info/sct"/>
+                <code value="33791000087105"/>
+                <display value="Identifies as nonbinary gender"/>
+              </coding>
+            </valueCodeableConcept>
+          </extension>
+          <extension url="period">
+            <valuePeriod>
+              <start value="2010-01-01"/>
+            </valuePeriod>
+          </extension>
+        </extension>
+        <name>
+          <family value="Pax-Shalom"/>
+          <given value="Jordan"/>
+        </name>
+        <name>
+          <use value="old"/>
+          <family value="Pax-Shalom"/>
+          <given value="Michelle"/>
+        </name>
+        <gender value="female"/>
+        <birthDate value="1990-01-01"/>
+      </Patient>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://healthintersections.com.au/fhir/playground/Patient/gh-non-binary-other"/>
+    <resource>
+      <Patient>
+        <id value="gh-non-binary-other"/>
+        <extension url="http://hl7.org/fhir/StructureDefinition/individual-genderIdentity">
+          <extension url="value">
+            <valueCodeableConcept>
+              <coding>
+                <system value="http://snomed.info/sct"/>
+                <code value="33791000087105"/>
+                <display value="Identifies as nonbinary gender"/>
+              </coding>
+            </valueCodeableConcept>
+          </extension>
+          <extension url="period">
+            <valuePeriod>
+              <start value="2010-01-01"/>
+            </valuePeriod>
+          </extension>
+        </extension>
+        <name>
+          <family value="Pax-Shalom"/>
+          <given value="Jordan"/>
+        </name>
+        <gender value="other"/>
+        <birthDate value="1990-01-01"/>
+      </Patient>
+    </resource>
+  </entry>
+
+  <entry>
+    <fullUrl value="http://healthintersections.com.au/fhir/playground/Patient/gh-non-binary-male-pronouns"/>
+    <resource>
+      <Patient>
+        <id value="gh-non-binary-male-pronouns"/>
+        <extension url="http://hl7.org/fhir/StructureDefinition/individual-genderIdentity">
+          <extension url="value">
+            <valueCodeableConcept>
+              <coding>
+                <system value="http://snomed.info/sct"/>
+                <code value="33791000087105"/>
+                <display value="Identifies as nonbinary gender"/>
+              </coding>
+            </valueCodeableConcept>
+          </extension>
+          <extension url="period">
+            <valuePeriod>
+              <start value="2010-01-01"/>
+            </valuePeriod>
+          </extension>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/individual-pronouns">
+          <extension url="value">
+            <valueCodeableConcept>
+              <coding>
+                <system value="http://loinc.org"/>
+                <code value="LA29520-6"/>
+              </coding>
+            </valueCodeableConcept>
+          </extension>
+          <extension url="period">
+            <valuePeriod>
+              <start value="2010-01-01"/>
+            </valuePeriod>
+          </extension>
+        </extension>
+        <name>
+          <family value="Pax-Shalom"/>
+          <given value="Jordan"/>
+        </name>
+        <gender value="male"/>
+        <birthDate value="1990-01-01"/>
+      </Patient>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://healthintersections.com.au/fhir/playground/Patient/gh-non-binary-female-pronouns"/>
+    <resource>
+      <Patient>
+        <id value="gh-non-binary-female-pronouns"/>
+        <extension url="http://hl7.org/fhir/StructureDefinition/individual-genderIdentity">
+          <extension url="value">
+            <valueCodeableConcept>
+              <coding>
+                <system value="http://snomed.info/sct"/>
+                <code value="33791000087105"/>
+                <display value="Identifies as nonbinary gender"/>
+              </coding>
+            </valueCodeableConcept>
+          </extension>
+          <extension url="period">
+            <valuePeriod>
+              <start value="2010-01-01"/>
+            </valuePeriod>
+          </extension>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/individual-pronouns">
+          <extension url="value">
+            <valueCodeableConcept>
+              <coding>
+                <system value="http://loinc.org"/>
+                <code value="LA29520-6"/>
+              </coding>
+            </valueCodeableConcept>
+          </extension>
+          <extension url="period">
+            <valuePeriod>
+              <start value="2010-01-01"/>
+            </valuePeriod>
+          </extension>
+        </extension>
+        <name>
+          <family value="Pax-Shalom"/>
+          <given value="Jordan"/>
+        </name>
+        <name>
+          <use value="old"/>
+          <family value="Pax-Shalom"/>
+          <given value="Michelle"/>
+        </name>
+        <gender value="female"/>
+        <birthDate value="1990-01-01"/>
+      </Patient>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://healthintersections.com.au/fhir/playground/Patient/gh-non-binary-other-pronouns"/>
+    <resource>
+      <Patient>
+        <id value="gh-non-binary-other-pronouns"/>
+        <extension url="http://hl7.org/fhir/StructureDefinition/individual-genderIdentity">
+          <extension url="value">
+            <valueCodeableConcept>
+              <coding>
+                <system value="http://snomed.info/sct"/>
+                <code value="33791000087105"/>
+                <display value="Identifies as nonbinary gender"/>
+              </coding>
+            </valueCodeableConcept>
+          </extension>
+          <extension url="period">
+            <valuePeriod>
+              <start value="2010-01-01"/>
+            </valuePeriod>
+          </extension>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/individual-pronouns">
+          <extension url="value">
+            <valueCodeableConcept>
+              <coding>
+                <system value="http://loinc.org"/>
+                <code value="LA29520-6"/>
+              </coding>
+            </valueCodeableConcept>
+          </extension>
+          <extension url="period">
+            <valuePeriod>
+              <start value="2010-01-01"/>
+            </valuePeriod>
+          </extension>
+        </extension>
+        <name>
+          <family value="Pax-Shalom"/>
+          <given value="Jordan"/>
+        </name>
+        <gender value="other"/>
+        <birthDate value="1990-01-01"/>
+      </Patient>
+    </resource>
+  </entry>
+
+  <entry>
+    <fullUrl value="http://healthintersections.com.au/fhir/playground/Patient/gh-UNK-female"/>
+    <resource>
+      <Patient>
+        <id value="gh-UNK-female"/>
+        <extension url="http://hl7.org/fhir/StructureDefinition/individual-genderIdentity">
+          <extension url="value">
+            <valueCodeableConcept>
+              <coding>
+                <system value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
+                <code value="UNK"/>
+                <display value="Unknown"/>
+              </coding>
+            </valueCodeableConcept>
+          </extension>
+        </extension>
+        <name>
+          <family value="Pax-Shalom"/>
+          <given value="Michelle"/>
+        </name>
+        <gender value="female"/>
+        <birthDate value="1990-01-01"/>
+      </Patient>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://healthintersections.com.au/fhir/playground/Patient/gh-UNK-male"/>
+    <resource>
+      <Patient>
+        <id value="gh-UNK-male"/>
+        <extension url="http://hl7.org/fhir/StructureDefinition/individual-genderIdentity">
+          <extension url="value">
+            <valueCodeableConcept>
+              <coding>
+                <system value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
+                <code value="UNK"/>
+              </coding>
+            </valueCodeableConcept>
+          </extension>
+        </extension>
+        <name>
+          <family value="Pax-Shalom"/>
+          <given value="Michael"/>
+        </name>
+        <gender value="male"/>
+        <birthDate value="1990-01-02"/>
+      </Patient>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://healthintersections.com.au/fhir/playground/Patient/gh-UNK-female-unknown"/>
+    <resource>
+      <Patient>
+        <id value="gh-UNK-female-unknown"/>
+        <extension url="http://hl7.org/fhir/StructureDefinition/individual-genderIdentity">
+          <extension url="value">
+            <valueCodeableConcept>
+              <coding>
+                <system value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
+                <code value="UNK"/>
+                <display value="Unknown"/>
+              </coding>
+            </valueCodeableConcept>
+          </extension>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/individual-pronouns">
+          <extension url="value">
+            <valueCodeableConcept>
+              <text value="unknown"/>
+            </valueCodeableConcept>
+          </extension>
+        </extension>
+        <name>
+          <family value="Pax-Shalom"/>
+          <given value="Michelle"/>
+        </name>
+        <gender value="female"/>
+        <birthDate value="1990-01-01"/>
+      </Patient>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://healthintersections.com.au/fhir/playground/Patient/gh-UNK-male-unknown"/>
+    <resource>
+      <Patient>
+        <id value="gh-UNK-male-unknown"/>
+        <extension url="http://hl7.org/fhir/StructureDefinition/individual-genderIdentity">
+          <extension url="value">
+            <valueCodeableConcept>
+              <coding>
+                <system value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
+                <code value="UNK"/>
+              </coding>
+            </valueCodeableConcept>
+          </extension>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/individual-pronouns">
+          <extension url="value">
+            <valueCodeableConcept>
+              <text value="unknown"/>
+            </valueCodeableConcept>
+          </extension>
+        </extension>
+        <name>
+          <family value="Pax-Shalom"/>
+          <given value="Michael"/>
+        </name>
+        <gender value="male"/>
+        <birthDate value="1990-01-02"/>
+      </Patient>
+    </resource>
+  </entry>
+
+</Bundle>
