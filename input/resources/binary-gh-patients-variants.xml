@@ -1,6 +1,6 @@
 <Bundle xmlns="http://hl7.org/fhir">
   <id value="gh-patients-variants"/>
-  <type value="collection"/>
+  <type value="transaction"/>
 
   <entry>
     <fullUrl value="http://healthintersections.com.au/fhir/playground/Patient/gh-female"/>
@@ -15,6 +15,10 @@
         <birthDate value="1990-01-01"/>
       </Patient>
     </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="Patient/gh-female"/>
+    </request>
   </entry>
   <entry>
     <fullUrl value="http://healthintersections.com.au/fhir/playground/Patient/gh-male"/>
@@ -29,6 +33,10 @@
         <birthDate value="1990-01-02"/>
       </Patient>
     </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="Patient/gh-male"/>
+    </request>
   </entry>
   <entry>
     <fullUrl value="http://healthintersections.com.au/fhir/playground/Patient/gh-female-pronouns-coded"/>
@@ -58,6 +66,10 @@
         <birthDate value="1990-01-03"/>
       </Patient>
     </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="Patient/gh-female-pronouns-coded"/>
+    </request>
   </entry>
   <entry>
     <fullUrl value="http://healthintersections.com.au/fhir/playground/Patient/gh-female-pronouns-text"/>
@@ -84,6 +96,10 @@
         <birthDate value="1990-01-04"/>
       </Patient>
     </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="Patient/gh-female-pronouns-text"/>
+    </request>
   </entry>
   <entry>
     <fullUrl value="http://healthintersections.com.au/fhir/playground/Patient/gh-male-pronouns-coded"/>
@@ -113,6 +129,10 @@
         <birthDate value="1990-01-05"/>
       </Patient>
     </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="Patient/gh-male-pronouns-coded"/>
+    </request>
   </entry>
   <entry>
     <fullUrl value="http://healthintersections.com.au/fhir/playground/Patient/gh-male-pronouns-text"/>
@@ -139,6 +159,10 @@
         <birthDate value="1990-01-06"/>
       </Patient>
     </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="Patient/gh-male-pronouns-text"/>
+    </request>
   </entry>
 
   <entry>
@@ -170,6 +194,10 @@
         <birthDate value="1990-01-01"/>
       </Patient>
     </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="Patient/gh-Female-female"/>
+    </request>
   </entry>
   <entry>
     <fullUrl value="http://healthintersections.com.au/fhir/playground/Patient/gh-Male-male"/>
@@ -199,6 +227,10 @@
         <birthDate value="1990-01-02"/>
       </Patient>
     </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="Patient/gh-Male-male"/>
+    </request>
   </entry>
   <entry>
     <fullUrl value="http://healthintersections.com.au/fhir/playground/Patient/gh-Female-female-pronouns"/>
@@ -244,6 +276,10 @@
         <birthDate value="1990-01-03"/>
       </Patient>
     </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="Patient/gh-Female-female-pronouns"/>
+    </request>
   </entry>
   <entry>
     <fullUrl value="http://healthintersections.com.au/fhir/playground/Patient/gh-Male-male-pronouns"/>
@@ -287,6 +323,10 @@
         <birthDate value="1990-01-05"/>
       </Patient>
     </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="Patient/gh-Male-male-pronouns"/>
+    </request>
   </entry>
 
   <entry>
@@ -323,6 +363,10 @@
         <birthDate value="1990-01-01"/>
       </Patient>
     </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="Patient/gh-Female-male"/>
+    </request>
   </entry>
   <entry>
     <fullUrl value="http://healthintersections.com.au/fhir/playground/Patient/gh-Male-female"/>
@@ -357,6 +401,10 @@
         <birthDate value="1990-01-02"/>
       </Patient>
     </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="Patient/gh-Male-female"/>
+    </request>
   </entry>
   <entry>
     <fullUrl value="http://healthintersections.com.au/fhir/playground/Patient/gh-Female-male-pronouns"/>
@@ -407,6 +455,10 @@
         <birthDate value="1990-01-03"/>
       </Patient>
     </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="Patient/gh-Female-male-pronouns"/>
+    </request>
   </entry>
   <entry>
     <fullUrl value="http://healthintersections.com.au/fhir/playground/Patient/gh-Male-female-pronouns"/>
@@ -457,6 +509,10 @@
         <birthDate value="1990-01-05"/>
       </Patient>
     </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="Patient/gh-Male-female-pronouns"/>
+    </request>
   </entry>
 
   <entry>
@@ -488,6 +544,10 @@
         <birthDate value="1990-01-01"/>
       </Patient>
     </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="Patient/gh-non-binary-male"/>
+    </request>
   </entry>
   <entry>
     <fullUrl value="http://healthintersections.com.au/fhir/playground/Patient/gh-non-binary-female"/>
@@ -523,6 +583,10 @@
         <birthDate value="1990-01-01"/>
       </Patient>
     </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="Patient/gh-non-binary-female"/>
+    </request>
   </entry>
   <entry>
     <fullUrl value="http://healthintersections.com.au/fhir/playground/Patient/gh-non-binary-other"/>
@@ -553,6 +617,10 @@
         <birthDate value="1990-01-01"/>
       </Patient>
     </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="Patient/gh-non-binary-other"/>
+    </request>
   </entry>
 
   <entry>
@@ -599,6 +667,10 @@
         <birthDate value="1990-01-01"/>
       </Patient>
     </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="Patient/gh-non-binary-male-pronouns"/>
+    </request>
   </entry>
   <entry>
     <fullUrl value="http://healthintersections.com.au/fhir/playground/Patient/gh-non-binary-female-pronouns"/>
@@ -649,6 +721,10 @@
         <birthDate value="1990-01-01"/>
       </Patient>
     </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="Patient/gh-non-binary-female-pronouns"/>
+    </request>
   </entry>
   <entry>
     <fullUrl value="http://healthintersections.com.au/fhir/playground/Patient/gh-non-binary-other-pronouns"/>
@@ -694,6 +770,10 @@
         <birthDate value="1990-01-01"/>
       </Patient>
     </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="Patient/gh-non-binary-other-pronouns"/>
+    </request>
   </entry>
 
   <entry>
@@ -720,6 +800,10 @@
         <birthDate value="1990-01-01"/>
       </Patient>
     </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="Patient/gh-UNK-female"/>
+    </request>
   </entry>
   <entry>
     <fullUrl value="http://healthintersections.com.au/fhir/playground/Patient/gh-UNK-male"/>
@@ -744,6 +828,10 @@
         <birthDate value="1990-01-02"/>
       </Patient>
     </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="Patient/gh-UNK-male"/>
+    </request>
   </entry>
   <entry>
     <fullUrl value="http://healthintersections.com.au/fhir/playground/Patient/gh-UNK-female-unknown"/>
@@ -776,6 +864,10 @@
         <birthDate value="1990-01-01"/>
       </Patient>
     </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="Patient/gh-UNK-female-unknown"/>
+    </request>
   </entry>
   <entry>
     <fullUrl value="http://healthintersections.com.au/fhir/playground/Patient/gh-UNK-male-unknown"/>
@@ -807,6 +899,10 @@
         <birthDate value="1990-01-02"/>
       </Patient>
     </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="Patient/gh-UNK-male-unknown"/>
+    </request>
   </entry>
 
 </Bundle>
