@@ -24,7 +24,7 @@
       <code value="001"/>
     </coding>
   </jurisdiction>
-  <packageId value="com.healthintersections.fhir.playground"/>
+  <packageId value="hl7.fhir.uv.playground"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
   <definition>
