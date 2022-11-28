@@ -24,7 +24,7 @@
   }],
   "valueCodeableConcept": {
     "coding" : [{
-      "system" : "http://hl7.org/fhir/tools/CodeSystem/organ-status",
+      "system" : "http://healthintersections.com.au/fhir/playground/CodeSystem/organ-status",
       "code" : "excised"
     }]
   },

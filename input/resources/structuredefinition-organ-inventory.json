@@ -1,7 +1,7 @@
 {
   "resourceType" : "StructureDefinition",
   "id" : "organ-inventory",
-  "url" : "http://hl7.org/fhir/tools/StructureDefinition/organ-inventory",
+  "url" : "http://healthintersections.com.au/fhir/playground/StructureDefinition/organ-inventory",
   "name" : "OrganInventoryProfile",
   "title" : "Organ Inventory Profile",
   "status" : "active",
@@ -62,7 +62,7 @@
         "definition" : "The status of the organ.",
         "binding" : {
           "strength" : "required",
-          "valueSet" : "http://hl7.org/fhir/tools/ValueSet/organ-inventory-status"
+          "valueSet" : "http://healthintersections.com.au/fhir/playground/ValueSet/organ-inventory-status"
         }
       },
       {
@@ -70,7 +70,7 @@
         "definition" : "The organ in question.",
         "binding" : {
           "strength" : "required",
-          "valueSet" : "http://hl7.org/fhir/tools/ValueSet/organ-inventory-list"
+          "valueSet" : "http://healthintersections.com.au/fhir/playground/ValueSet/organ-inventory-list"
         }
       }
     ]

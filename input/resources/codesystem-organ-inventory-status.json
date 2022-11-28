@@ -1,7 +1,7 @@
 {
   "resourceType": "CodeSystem",
   "id": "organ-inventory-status",
-  "url": "http://hl7.org/fhir/tools/CodeSystem/organ-inventory-status",
+  "url": "http://healthintersections.com.au/fhir/playground/CodeSystem/organ-inventory-status",
   "name": "OrganStatus",
   "title": "Organ Status",
   "status": "draft",

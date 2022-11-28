@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "organ-inventory-list",
-  "url": "http://hl7.org/fhir/tools/ValueSet/organ-inventory-list",
+  "url": "http://healthintersections.com.au/fhir/playground/ValueSet/organ-inventory-list",
   "name": "OrganList",
   "title": "Organ List (Snomed GPS)",
   "status": "draft",
