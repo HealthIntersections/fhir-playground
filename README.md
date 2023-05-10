@@ -1,3 +1,3 @@
-# Tooling IG
+# FHIR Playground
 
-Source for the tooling extensions documentation
+A place to develop ideas for the FHIR community
