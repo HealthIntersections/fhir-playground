@@ -7,7 +7,7 @@
   "status" : "active",
   "date" : "2022-10-18",
   "publisher" : "Grahame Grieve",
-  "description" : "A candidate profile for an organ inventory status",
+  "description" : "A candidate profile for an organ inventory status. An organ inventory is a list of resources that conform to this profile. Todo: is there a need for some kind of unknown other than for the list as a whole?",
   "fhirVersion" : "4.0.1",
   "kind" : "resource",
   "abstract" : false,
