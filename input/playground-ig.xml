@@ -63,11 +63,11 @@
       </reference>
     </resource>
     <resource>
-      <name value="Example"/>
-      <description value="example inventory entry"/>
       <reference>
         <reference value="Observation/inventory-example"/>
       </reference>
+      <name value="Example"/>
+      <description value="example inventory entry"/>
       <exampleCanonical value="http://healthintersections.com.au/fhir/playground/StructureDefinition/organ-inventory"/>
     </resource>
     <page>
