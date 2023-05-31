@@ -1,0 +1,41 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "group-kind",
+  "url": "http://healthintersections.com.au/fhir/playground/CodeSystem/group-kind",
+  "name": "GroupKind",
+  "title": "Group Kind",
+  "status": "draft",
+  "experimental" : false,
+  "date": "2022-10-18",
+  "publisher": "Grahame Grieve (on behalf of openHIE)",
+  "description": "Public Health Group Profile",
+  "content" : "complete",
+  "caseSensitive" : true,
+  "hierarchyMeaning" : "is-a",
+  "concept": [{
+    "code" : "household",
+    "display" : "household",
+    "definition" : "A group of people linked by being part of a household",
+    "concept" : [{
+      "code" : "household-home",
+      "display" : "household (one hearth)",
+      "definition" : "A group of people linked by being part of a household, where this means that they share the same living space"
+    },{
+      "code" : "household-registered",
+      "display" : "Household (official)",
+      "definition" : "A group of people who are all registered as officially part of the household"
+    }]
+  },{
+    "code" : "family",
+    "display" : "family",
+    "definition" : "A group of people linked by familial ties (marriage/inheritance/social practices)"
+  }, {
+    "code" : "workplace",
+    "display" : "workplace",
+    "definition" : "A group of people linked by the presence at some kind of business/employment"
+  }, {
+    "code" : "event",
+    "display" : "event",
+    "definition" : "A group of people linked by being present at some event (sports/music/political etc). Typically associated with an infection concern"
+  }]
+}

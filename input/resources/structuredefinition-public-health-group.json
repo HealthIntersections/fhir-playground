@@ -1,0 +1,79 @@
+{
+  "resourceType" : "StructureDefinition",
+  "id" : "public-health-group",
+  "url" : "http://healthintersections.com.au/fhir/playground/StructureDefinition/public-health-group",
+  "name" : "PublicHealthGroup",
+  "title" : "Public Health Group",
+  "status" : "active",
+  "date" : "2022-10-18",
+  "publisher" : "Grahame Grieve (on behalf of openHIE)",
+  "description" : "A profile on group describing how group is used for tracking set of individuals related in some way for public health purposes by Global Goods Applications",
+  "fhirVersion" : "4.0.1",
+  "kind" : "resource",
+  "abstract" : false,
+  "type" : "Group",
+  "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Group",
+  "derivation" : "constraint",
+  "differential" : {
+    "element" : [
+      {
+        "path" : "Group.identifier",
+        "mustSupport" : true
+      },
+      {
+        "path" : "Group.active",
+        "short" : "Group has died out / moved / dispersed / no longer tracked",
+        "comment" : "Active is used to identify families/households that live in a given community. If they died or moved away then they are marked as in-active. For workplace or event groups, the group is active when it's membership is no longer maintained"
+      },
+      {
+        "path" : "Group.type",
+        "fixedCode" : "person"
+      },
+      {
+        "path" : "Group.actual",
+        "fixedBoolean" : true
+      },
+      {
+        "path" : "Group.code",
+        "binding" : {
+          "strength" : "required",
+          "valueSet" : "http://healthintersections.com.au/fhir/playground/ValueSet/group-kind"
+        }
+      },
+      {
+        "path" : "Group.name",
+        "comment" : "For households, this may be the household head last name",
+        "min" : 1
+      },
+      {
+        "path" : "Group.characteristic.code",
+        "binding" : {
+          "strength" : "required",
+          "valueSet" : "http://healthintersections.com.au/fhir/playground/ValueSet/group-characteristic"
+        }
+      },
+      {
+        "path" : "Group.characteristic.value[x]",
+        "short" : "Type depends on characteristic code (see code definition)",
+          "comment" : "The type of this value depends on characteristic code, and is specified in the definition of the code"
+      },
+      {
+        "path" : "Group.member.extension",
+        "min" : 0,
+        "max" : "*",
+        "type" : [{
+          "code" : "Extension",
+          "profile" : ["http://healthintersections.com.au/fhir/playground/StructureDefinition/group-relationship"]
+        }]
+      },
+      {
+        "path" : "Group.member.period",
+        "mustSupport" : true
+      },
+      {
+        "path" : "Group.member.inactive",
+        "mustSupport" : true
+      }
+    ]
+  }
+}

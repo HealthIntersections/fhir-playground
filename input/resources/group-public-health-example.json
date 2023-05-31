@@ -1,0 +1,91 @@
+{
+  "resourceType": "Group",
+  "id": "public-health-example",
+  "identifier" : [{
+    "system" : "http://openSRP.org/liberia/households",
+    "value" : "432234"
+  }],
+  "active" : true,
+  "type" : "person",
+  "actual" : true,
+  "code" : {
+    "coding" : [{
+      "system" : "http://healthintersections.com.au/fhir/playground/CodeSystem/group-kind",
+      "code" : "household-home",
+      "display" : "household (one hearth)"
+    }]
+  },
+  "name" : "Bwoe",
+  "quantity" : 4,
+  "characteristic" : [{
+    "code" : {
+      "coding" : [{
+        "system" : "http://healthintersections.com.au/fhir/playground/CodeSystem/group-characteristic",
+        "code" : "address"
+      }]
+    },
+    "valueReference" : {
+      "reference" : "Location/4647455",
+      "display" : "Rievercess"
+    },
+    "exclude" : false
+  }],
+  "member" : [{
+    "extension" : [{
+      "url" : "http://healthintersections.com.au/fhir/playground/StructureDefinition/group-relationship",
+      "valueCoding" : {
+        "system" : "http://healthintersections.com.au/fhir/playground/CodeSystem/group-relationship",
+        "code" : "head-of-house"
+      }
+    }],
+    "entity" : {
+      "reference" : "Patient/56234646",
+      "display" : "Teme K Bwoe"
+    }
+  },{
+    "entity" : {
+      "reference" : "Patient/56234647",
+      "display" : "Faith M Gbotoe"
+    }
+  },{
+    "entity" : {
+      "reference" : "Patient/56234648",
+      "display" : "Aaron J Bwoe"
+    }
+  },{
+    "entity" : {
+      "reference" : "Patient/56234649",
+      "display" : "Grace M Bwoe"
+    }
+  }]
+}
+
+
+- Address
+    - Physical location
+        - Can be Linked to a location resources with GPS data
+        - It can also be free text if the implementation does not require the Location link
+- Household members
+- Head of household identification.
+- Status
+    - Active/in-active
+- A way to cater for polygamous household heads
+    - Not very sure of how to handle this?????
+-
+
+      "name": "Teme K Bwoe",
+      "id": "909094",
+      "gender": "m",
+      "status": "active",
+      "dateOfBirth": "1980-09-09",
+      "isHead": true
+
+    },
+    {
+    },
+    {
+     
+    }
+  ]
+}
+

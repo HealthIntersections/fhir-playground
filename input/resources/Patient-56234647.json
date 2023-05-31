@@ -1,0 +1,14 @@
+{
+  "resourceType" : "Patient",
+  "id" : "56234647",
+  "name" : [{
+    "text" : "Faith M Gbotoe"
+  }],
+  "identifier" : [{
+    "system" : "http://openSRP.org/liberia/patients",
+    "value" : "329090"
+  }],
+  "gender" : "female",
+  "active" : true,
+  "birthDate": "1988-09-09"
+}

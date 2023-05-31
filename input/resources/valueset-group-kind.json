@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "id": "group-kind",
+  "url": "http://healthintersections.com.au/fhir/playground/ValueSet/group-kind",
+  "name": "GroupKind",
+  "title": "Group Kind",
+  "status": "draft",
+  "experimental" : false,
+  "date": "2022-10-18",
+  "publisher": "Grahame Grieve (on behalf of openHIE)",
+  "description": "Group Kind",
+  "compose": {
+    "include": [{
+      "system": "http://healthintersections.com.au/fhir/playground/CodeSystem/group-kind"
+    }]
+  }
+}

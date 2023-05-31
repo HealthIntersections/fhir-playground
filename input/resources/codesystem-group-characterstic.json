@@ -1,0 +1,24 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "group-characteristic",
+  "url": "http://healthintersections.com.au/fhir/playground/CodeSystem/group-characteristic",
+  "name": "GroupCharacteristic",
+  "title": "Group Characteristic",
+  "status": "draft",
+  "experimental" : false,
+  "date": "2022-10-18",
+  "publisher": "Grahame Grieve (on behalf of openHIE)",
+  "description": "Codes to define the characteristics of the group",
+  "content" : "complete",
+  "caseSensitive" : true,
+  "hierarchyMeaning" : "is-a",
+  "concept": [{
+    "code" : "address",
+    "display" : "Address",
+    "definition" : "The group is characterised by a shared address. The data type for this characteristic is Reference(Location)"
+  },{
+    "code" : "primary-case",
+    "display" : "Primary Case",
+    "definition" : "This person is the primary case of health concern that is the basis on which the group is being tracked"
+  }]
+}

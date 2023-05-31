@@ -1,0 +1,14 @@
+{
+  "resourceType" : "Patient",
+  "id" : "56234649",
+  "name" : [{
+    "text" : "Grace M Bwoe"
+  }],
+  "identifier" : [{
+    "system" : "http://openSRP.org/liberia/patients",
+    "value" : "329090"
+  }],
+  "gender" : "female",
+  "active" : true,
+  "birthDate": "2020-09-09"
+}

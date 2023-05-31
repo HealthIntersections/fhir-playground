@@ -1,0 +1,15 @@
+{
+  "resourceType" : "Patient",
+  "id" : "56234648",
+  "name" : [{
+    "text" : "Aaron J Bwoe"
+  }],
+  "identifier" : [{
+    "system" : "http://openSRP.org/liberia/patients",
+    "value" : "997564"
+  }],
+  "gender" : "male",
+  "active" : true,
+  "birthDate": "2000-09-09"
+}
+
