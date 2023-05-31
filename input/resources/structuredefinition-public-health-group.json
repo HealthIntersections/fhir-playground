@@ -23,7 +23,8 @@
       {
         "path" : "Group.active",
         "short" : "Group has died out / moved / dispersed / no longer tracked",
-        "comment" : "Active is used to identify families/households that live in a given community. If they died or moved away then they are marked as in-active. For workplace or event groups, the group is active when it's membership is no longer maintained"
+        "comment" : "Active is used to identify families/households that live in a given community. If they died or moved away then they are marked as in-active. For workplace or event groups, the group is active when it's membership is no longer maintained",
+        "mustSupport" : true
       },
       {
         "path" : "Group.type",
@@ -35,6 +36,7 @@
       },
       {
         "path" : "Group.code",
+        "mustSupport" : true,
         "binding" : {
           "strength" : "required",
           "valueSet" : "http://healthintersections.com.au/fhir/playground/ValueSet/group-kind"

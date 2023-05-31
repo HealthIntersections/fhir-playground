@@ -96,6 +96,14 @@
         <reference value="StructureDefinition/group-relationship"/>
       </reference>
     </resource>
+     <resource>
+      <reference>
+        <reference value="Group/public-health-example"/>
+      </reference>
+      <name value="Example"/>
+      <description value="Public Health Group example"/>
+      <exampleCanonical value="http://healthintersections.com.au/fhir/playground/StructureDefinition/public-health-group"/>
+    </resource>
     <resource>
       <reference>
         <reference value="Observation/inventory-example"/>

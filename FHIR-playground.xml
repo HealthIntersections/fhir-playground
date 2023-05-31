@@ -4,12 +4,12 @@
 <artifactPageExtension value="-definitions"/>
 <artifactPageExtension value="-examples"/>
 <artifactPageExtension value="-mappings"/>
-<artifact id="Group/public-health-example" key="Group-public-health-example" name=""/>
 <artifact id="Patient/56234647" key="Patient-56234647" name=""/>
 <artifact id="Bundle/gh-patients-variants" key="Bundle-gh-patients-variants" name=""/>
 <artifact id="Patient/56234646" key="Patient-56234646" name=""/>
 <artifact id="Patient/56234649" key="Patient-56234649" name=""/>
 <artifact id="Patient/56234648" key="Patient-56234648" name=""/>
+<artifact id="Group/public-health-example" key="Group-public-health-example" name="Example"/>
 <artifact id="Observation/inventory-example" key="Observation-inventory-example" name="Example"/>
 <artifact id="CodeSystem/group-characteristic" key="CodeSystem-group-characteristic" name="Group Characteristic"/>
 <artifact id="CodeSystem/group-kind" key="CodeSystem-group-kind" name="Group Kind"/>
