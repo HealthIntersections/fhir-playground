@@ -4,25 +4,36 @@
 <artifactPageExtension value="-definitions"/>
 <artifactPageExtension value="-examples"/>
 <artifactPageExtension value="-mappings"/>
-<artifact id="Patient/56234647" key="Patient-56234647" name=""/>
-<artifact id="Bundle/gh-patients-variants" key="Bundle-gh-patients-variants" name=""/>
+<artifact id="OperationDefinition/TestOp1" key="OperationDefinition-TestOp1" name=""/>
+<artifact id="StructureDefinition/patient-op-base" key="StructureDefinition-patient-op-base" name=""/>
+<artifact id="StructureDefinition/patient-op1" key="StructureDefinition-patient-op1" name=""/>
+<artifact id="StructureDefinition/patient-op2" key="StructureDefinition-patient-op2" name=""/>
+<artifact id="StructureDefinition/patient-op2a" key="StructureDefinition-patient-op2a" name=""/>
+<artifact id="StructureDefinition/patient-op3" key="StructureDefinition-patient-op3" name=""/>
 <artifact id="Patient/56234646" key="Patient-56234646" name=""/>
-<artifact id="Patient/56234649" key="Patient-56234649" name=""/>
+<artifact id="Patient/56234647" key="Patient-56234647" name=""/>
 <artifact id="Patient/56234648" key="Patient-56234648" name=""/>
+<artifact id="Patient/56234649" key="Patient-56234649" name=""/>
+<artifact id="Practitioner/grahame" key="Practitioner-grahame" name=""/>
 <artifact id="Group/public-health-example" key="Group-public-health-example" name="Example"/>
 <artifact id="Observation/inventory-example" key="Observation-inventory-example" name="Example"/>
+<artifact id="StructureDefinition/example-diagnosis" key="StructureDefinition-example-diagnosis" name="Example Diagnosis"/>
+<artifact id="Requirements/example" key="Requirements-example" name="Example Requirements Set 1"/>
 <artifact id="CodeSystem/group-characteristic" key="CodeSystem-group-characteristic" name="Group Characteristic"/>
-<artifact id="CodeSystem/group-kind" key="CodeSystem-group-kind" name="Group Kind"/>
-<artifact id="ValueSet/group-kind" key="ValueSet-group-kind" name="Group Kind"/>
 <artifact id="ValueSet/group-characteristic" key="ValueSet-group-characteristic" name="Group Kind"/>
-<artifact id="CodeSystem/group-relationship" key="CodeSystem-group-relationship" name="Group Relationship"/>
-<artifact id="ValueSet/group-relationship" key="ValueSet-group-relationship" name="Group Relationship"/>
+<artifact id="ValueSet/group-kind" key="ValueSet-group-kind" name="Group Kind"/>
+<artifact id="CodeSystem/group-kind" key="CodeSystem-group-kind" name="Group Kind"/>
 <artifact id="StructureDefinition/group-relationship" key="StructureDefinition-group-relationship" name="Group Relationship"/>
+<artifact id="ValueSet/group-relationship" key="ValueSet-group-relationship" name="Group Relationship"/>
+<artifact id="CodeSystem/group-relationship" key="CodeSystem-group-relationship" name="Group Relationship"/>
+<artifact id="StructureDefinition/group-rating" key="StructureDefinition-group-rating" name="Group rating"/>
 <artifact id="StructureDefinition/organ-inventory" key="StructureDefinition-organ-inventory" name="Organ Inventory Profile"/>
 <artifact id="ValueSet/organ-inventory-list" key="ValueSet-organ-inventory-list" name="Organ List (Snomed GPS)"/>
-<artifact id="CodeSystem/organ-inventory-status" key="CodeSystem-organ-inventory-status" name="Organ Status"/>
 <artifact id="ValueSet/organ-inventory-status" key="ValueSet-organ-inventory-status" name="Organ Status"/>
+<artifact id="CodeSystem/organ-inventory-status" key="CodeSystem-organ-inventory-status" name="Organ Status"/>
 <artifact id="StructureDefinition/public-health-group" key="StructureDefinition-public-health-group" name="Public Health Group"/>
+<artifact id="ActorDefinition/server" key="ActorDefinition-server" name="Server Actor 1"/>
+<artifact id="Bundle/gh-patients-variants" key="Bundle-gh-patients-variants" name="null (Bundle)"/>
 <page key="NA" name="(NA)"/>
 <page key="many" name="(many)"/>
 <page key="artifacts" name="Artifacts Summary"/>

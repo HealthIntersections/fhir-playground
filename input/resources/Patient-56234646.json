@@ -1,6 +1,10 @@
 {
   "resourceType" : "Patient",
   "id" : "56234646",
+  "text" : {
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a href=\"Requirements-example-testing.html\">Good Link 1</a><a href=\"Requirements-example-testing.html#root\">Good Link 2</a><a href=\"Requirements-example-testingX.html\">Bad Link</a><a href=\"Requirements-example-testing.html#rootX\">Bad Link 2</a></div>",
+    "status" : "additional"
+  },
   "name" : [{
     "text" : "Teme K Bwoe"
   }],
