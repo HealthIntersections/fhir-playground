@@ -15,7 +15,7 @@
   <abstract value="false"/>
   <context>
     <type value="element"/>
-    <expression value="Group.member"/>
+    <expression value="Patient"/>
   </context>
   <type value="Extension"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
