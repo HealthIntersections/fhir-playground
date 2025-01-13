@@ -96,6 +96,11 @@
         <reference value="StructureDefinition/group-relationship"/>
       </reference>
     </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/community"/>
+      </reference>
+    </resource>
      <resource>
       <reference>
         <reference value="Group/public-health-example"/>

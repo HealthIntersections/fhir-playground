@@ -59,33 +59,3 @@
     }
   }]
 }
-
-
-- Address
-    - Physical location
-        - Can be Linked to a location resources with GPS data
-        - It can also be free text if the implementation does not require the Location link
-- Household members
-- Head of household identification.
-- Status
-    - Active/in-active
-- A way to cater for polygamous household heads
-    - Not very sure of how to handle this?????
--
-
-      "name": "Teme K Bwoe",
-      "id": "909094",
-      "gender": "m",
-      "status": "active",
-      "dateOfBirth": "1980-09-09",
-      "isHead": true
-
-    },
-    {
-    },
-    {
-     
-    }
-  ]
-}
-
